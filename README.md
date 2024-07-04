@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 ## 🌟 Configuración Inicial
 
 ### Paso 1: 🧙‍♂️ Preparando el Entorno 

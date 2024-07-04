@@ -16,7 +16,7 @@ Paso 3: 🏗️  Inicia la base de datos
 ```bash
 python manage.py migrate
 ```
-Paso 4: 🌟 # Inicia el servidor de desarrollo
+Paso 4: 🌟 Inicia el servidor de desarrollo
 ```bash
 python manage.py runserver
 ```

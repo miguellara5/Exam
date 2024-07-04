@@ -1,14 +1,22 @@
-## 🚀 Preparando todo
+markdown
+Copy code
+## 🌟 Configuración Inicial
 
-### Paso 1
-
+### Paso 1: 🧙‍♂️ Preparando el Entorno 
 ```bash
-# Crea tu mundo virtual mágico
 python -m venv env
 env\Scripts\activate   # 🧙 Activa el entorno
+```
+Paso 2: ✨ Instala los requerimientos
+```bash
 
-###Paso 2: ✨ Encantamientos y Pociones
-# Instala los requrimientos
 pip install -r requirements.txt
-# Inicia el ritual de desarrollo
+```
+Paso 3: 🏗️  Inicia la base de datos 
+```bash
+python manage.py migrate
+```
+Paso 4: 🌟 # Inicia el servidor de desarrollo
+```bash
 python manage.py runserver
+```

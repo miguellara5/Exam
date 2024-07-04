@@ -1,4 +1,4 @@
-## 🚀 Preparando tu Entorno de Desarrollo sin Docker con SQLite
+## 🚀 Preparando todo
 
 ### Paso 1: 🪄 ¡Enciende la Luz!
 
@@ -7,3 +7,7 @@
 python -m venv todo-env
 source todo-env/bin/activate  # 🧙 Activa tu varita (o comando) en macOS/Linux
 .\todo-env\Scripts\activate   # 🧙 Activa tu hechizo en Windows
+# Instala los requrimientos
+pip install -r requirements.txt
+# Inicia el ritual de desarrollo
+python manage.py runserver
